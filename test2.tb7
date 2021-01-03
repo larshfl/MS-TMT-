@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Manifest name="test2" id="d2867c91-cc2b-4cae-87ab-2be5d6faab67" version="1.0.0.2" author="LAPTOP-GTP4U7EO\larsf" />
+  <ThreatMetaData>
+    <IsPriorityUsed>true</IsPriorityUsed>
+    <IsStatusUsed>true</IsStatusUsed>
+    <PropertiesMetaData>
+      <ThreatMetaDatum>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>9ae5bef9-9756-44b3-8c0f-efcd78bd6207</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatCategory</Name>
+        <Label>Category</Label>
+        <HideFromUI>false</HideFromUI>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatShortDescription</Name>
+        <Label>Short Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>114c18d5-ee3e-4070-829a-e5262e70a9bd</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatDescription</Name>
+        <Label>Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>6031d78d-db05-432d-b7c2-3da3f7e7953a</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>StateInformation</Name>
+        <Label>Justification</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>72ec0a9c-56dd-4485-90d9-30ba1fb40056</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>InteractionString</Name>
+        <Label>Interaction</Label>
+        <HideFromUI>false</HideFromUI>
+        <Id>ee49d58f-4b12-4e11-a1ef-11e55b1cf069</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>Priority</Name>
+        <Label>Priority</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value>High</Value>
+          <Value>Medium</Value>
+          <Value>Low</Value>
+        </Values>
+        <Description>Priority</Description>
+        <Id>4bedf599-a278-45dd-a653-e09df4d3462c</Id>
+        <AttributeType>1</AttributeType>
+      </ThreatMetaDatum>
+    </PropertiesMetaData>
+  </ThreatMetaData>
+  <GenericElements>
+    <ElementType>
+      <Name>A</Name>
+      <ID>b922f795-3488-4757-b318-fba888255668</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Free Text Annotation</Name>
+      <ID>GE.A</ID>
+      <Description>A representation of an annotation.</Description>
+      <ParentElement>ROOT</ParentElement>
+      <Hidden>true</Hidden>
+      <Representation>Annotation</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+  </GenericElements>
+  <StandardElements />
+  <ThreatCategories>
+    <ThreatCategory>
+      <Name>Spoof</Name>
+      <Id>59744a1b-fb48-4164-a4e3-836a76c3e584</Id>
+    </ThreatCategory>
+  </ThreatCategories>
+  <ThreatTypes>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>source is 'b922f795-3488-4757-b318-fba888255668'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>fe1bdd84-533d-4971-ad9b-cc2e376aa041</Id>
+      <ShortTitle>Spoofing</ShortTitle>
+      <Category>59744a1b-fb48-4164-a4e3-836a76c3e584</Category>
+      <RelatedCategory />
+      <Description />
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>4bedf599-a278-45dd-a653-e09df4d3462c</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+  </ThreatTypes>
+</KnowledgeBase>

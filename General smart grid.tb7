@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.190" author="LAPTOP-GTP4U7EO\larsf" />
+  <ThreatMetaData>
+    <IsPriorityUsed>true</IsPriorityUsed>
+    <IsStatusUsed>true</IsStatusUsed>
+    <PropertiesMetaData>
+      <ThreatMetaDatum>
+        <Name>Title</Name>
+        <Label>Title</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>463c0612-205f-423a-8634-398b4ea35488</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatCategory</Name>
+        <Label>Category</Label>
+        <HideFromUI>false</HideFromUI>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatShortDescription</Name>
+        <Label>Short Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>06eab29d-82f7-4208-b59f-5c90c0d8cf9d</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>UserThreatDescription</Name>
+        <Label>Description</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>StateInformation</Name>
+        <Label>Justification</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Id>4dab9b42-d217-4782-befd-6f33bd2b46f5</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>InteractionString</Name>
+        <Label>Interaction</Label>
+        <HideFromUI>false</HideFromUI>
+        <Id>aac190d7-fa3d-4d03-a8ac-8cfdc6a95fb5</Id>
+        <AttributeType>0</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>Priority</Name>
+        <Label>Priority</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value>High</Value>
+          <Value>Medium</Value>
+          <Value>Low</Value>
+        </Values>
+        <Description>Priority</Description>
+        <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+        <AttributeType>1</AttributeType>
+      </ThreatMetaDatum>
+    </PropertiesMetaData>
+  </ThreatMetaData>
+  <GenericElements>
+    <ElementType>
+      <Name>Generic Smart Grid Component</Name>
+      <ID>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes>
+        <Attribute>
+          <Id>a17baecd-d232-4fba-81e3-506242dd9a9b</Id>
+          <IsInherited>false</IsInherited>
+          <Name>a11c4236-cd31-41fc-bd54-c935d6fd6b00</Name>
+          <DisplayName>Provides Software Authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+            <Value>Does not provide remote software update capability</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>2de08e88-eb05-49d2-92ce-47ba4785930c</Id>
+          <IsInherited>false</IsInherited>
+          <Name>f24ca3bb-dddd-470a-b5ab-29c2bee268dd</Name>
+          <DisplayName>Provides remote user authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+            <Value>Does not provide remote user functionality</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6a4d6fc6-3d3a-4889-b447-5b4c6fee9a5b</Id>
+          <IsInherited>false</IsInherited>
+          <Name>d03abf9f-7a4d-4c65-9b8f-5562e693f2fd</Name>
+          <DisplayName>Hardware supports cryptgraphic operations</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>ef3bf277-b423-44be-9382-cea79e8eac7d</Id>
+          <IsInherited>false</IsInherited>
+          <Name>5172f3b9-2025-442b-a361-b9dd57901a9b</Name>
+          <DisplayName>Provides different levels of privelege</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Generic Trust Border Boundary</Name>
+      <ID>54278458-da63-4553-8d2d-90cab8a822d3</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Generic exteral component</Name>
+      <ID>fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Rectangle</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Generic data flow</Name>
+      <ID>a622b89b-40dc-4ede-a95e-32161ab98344</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes>
+        <Attribute>
+          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
+          <IsInherited>false</IsInherited>
+          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
+          <IsInherited>false</IsInherited>
+          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
+          <IsInherited>false</IsInherited>
+          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
+          <DisplayName>Source Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5cb73323-1b3a-45d2-8c33-0e8212a0fe5b</Id>
+          <IsInherited>false</IsInherited>
+          <Name>58a5e40d-9d02-4d31-9370-319403079127</Name>
+          <DisplayName>Destination Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>23c0200c-f10f-4dd2-9025-6ce742cdd470</Id>
+          <IsInherited>false</IsInherited>
+          <Name>edb23fc2-fcf4-4d19-9d12-71887aa3beda</Name>
+          <DisplayName>Provides Non-Repudiation</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>44566e3b-f8d8-4cbb-b47e-5ce89833faa2</Id>
+          <IsInherited>false</IsInherited>
+          <Name>5d49f613-2895-4259-89d9-ee887daf4305</Name>
+          <DisplayName>Wireless communication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>false</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Physical network</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>5G</Value>
+            <Value>Fiber optic</Value>
+            <Value>Broadban</Value>
+            <Value>Power Line communication</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Free Text Annotation</Name>
+      <ID>GE.A</ID>
+      <Description>A representation of an annotation.</Description>
+      <ParentElement>ROOT</ParentElement>
+      <Hidden>true</Hidden>
+      <Representation>Annotation</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+  </GenericElements>
+  <StandardElements>
+    <ElementType>
+      <Name>Substation</Name>
+      <ID>3d6bec71-25e3-4a9d-b0f4-e76eebdfc0ad</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>IED</Name>
+      <ID>cc7b58d3-bebe-48d2-bcb3-51ffb661404b</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>SCADA server</Name>
+      <ID>5a918225-478a-4c32-bb6d-658bcd12534e</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>a622b89b-40dc-4ede-a95e-32161ab98344</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Smart Meter</Name>
+      <ID>5572994e-688b-4f3d-b2e4-f0adee191888</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>AMI server</Name>
+      <ID>7cdab519-6c8a-4e92-82a1-abd623f63f4e</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Measurement Unit</Name>
+      <ID>a79cebe5-1bb6-42ec-a94e-231aebd82c5f</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes>
+        <Attribute>
+          <Id>749d047d-45c6-4cab-9e45-b78f3bf8088e</Id>
+          <IsInherited>false</IsInherited>
+          <Name>3a9ffa94-e3c3-4a6d-a4e2-9637c2743a59</Name>
+          <DisplayName>Analog or digital</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Analog</Value>
+            <Value>Digital</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Circuit breaker</Name>
+      <ID>285d9da0-4646-4c3f-9b00-ca0ddac19e07</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Transformer</Name>
+      <ID>990255f1-c567-4137-bf7d-e2f7ee838c7b</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>DER</Name>
+      <ID>c6da616d-2c7a-4494-b01f-21be8c1a5fbb</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>External network</Name>
+      <ID>2514e1bd-30b5-490a-8799-a1c5065cb846</ID>
+      <Description />
+      <ParentElement>fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Rectangle</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Vendor organization</Name>
+      <ID>5fb1612f-ea55-4b86-93e2-d354ee17055d</ID>
+      <Description />
+      <ParentElement>fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Rectangle</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Service personnel</Name>
+      <ID>534f3d98-6634-4182-a2dd-699c214c58b5</ID>
+      <Description />
+      <ParentElement>fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Rectangle</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+  </StandardElements>
+  <ThreatCategories>
+    <ThreatCategory>
+      <Name>Spoofing</Name>
+      <Id>66d93b58-6d13-4431-aa06-65906cc551f0</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+    <ThreatCategory>
+      <Name>Tampering</Name>
+      <Id>a6ad399e-6e9d-4d8e-b710-88dec85b5249</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+    <ThreatCategory>
+      <Name>Repudiation</Name>
+      <Id>7f8201f1-2764-4209-87d7-99780e2b653f</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+    <ThreatCategory>
+      <Name>Information Disclosure</Name>
+      <Id>e0da5e22-f13a-4771-9973-2eb933f28c46</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+    <ThreatCategory>
+      <Name>Denial of service</Name>
+      <Id>bfd1f6ed-1b06-4216-9c7f-0fe3eb3329f6</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+    <ThreatCategory>
+      <Name>Elevation of Privelege</Name>
+      <Id>555172d8-70fc-42bb-9485-01cab71685b3</Id>
+      <ShortDescription />
+      <LongDescription />
+    </ThreatCategory>
+  </ThreatCategories>
+  <ThreatTypes>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(flow.5d49f613-2895-4259-89d9-ee887daf4305 is 'Yes' or  flow crosses '54278458-da63-4553-8d2d-90cab8a822d3') and  flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'No'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>6dc350ab-6db2-49cd-bb17-5ee14220a6b0</Id>
+      <ShortTitle>Spoofing of communication</ShortTitle>
+      <Category>66d93b58-6d13-4431-aa06-65906cc551f0</Category>
+      <RelatedCategory />
+      <Description>An attacker may be able to send false data to the {target.Name} by pretending to be the {source.Name}</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may be able to send false data to the {target.Name} by pretending to be the {source.Name}</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(flow crosses '54278458-da63-4553-8d2d-90cab8a822d3') and (flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'No')</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>3071ef4d-7288-413d-8243-cc3eca2c7e44</Id>
+      <ShortTitle>Tampering of communication</ShortTitle>
+      <Category>a6ad399e-6e9d-4d8e-b710-88dec85b5249</Category>
+      <RelatedCategory />
+      <Description>An attacker may be able to tamper with the communication between {source.Name} and {target.Name}</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may be able to tamper with the communication between {source.Name} and {target.Name}</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>High</Value>
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(flow crosses '54278458-da63-4553-8d2d-90cab8a822d3') and  flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'No'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>12ee451b-6b0d-4dce-be00-c74db43cddaa</Id>
+      <ShortTitle>Replay attack</ShortTitle>
+      <Category>a6ad399e-6e9d-4d8e-b710-88dec85b5249</Category>
+      <RelatedCategory />
+      <Description>An attacker may be able to intercept a message from the {source.Name} to the {target.Name} and resend it on a later time</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may be able to intercept a message from the {source.Name} to the {target.Name} and resend it on a later time</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' and flow crosses '54278458-da63-4553-8d2d-90cab8a822d3'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>be138c66-793b-4c0a-b4ef-593e166164fa</Id>
+      <ShortTitle>Repudiation of received message</ShortTitle>
+      <Category>7f8201f1-2764-4209-87d7-99780e2b653f</Category>
+      <RelatedCategory />
+      <Description>The {target.Name} may deny having received a message</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>The {target.Name} may deny having received a message</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' and flow crosses '54278458-da63-4553-8d2d-90cab8a822d3'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>01c92c56-3314-42dd-bce5-f6424bbdcf98</Id>
+      <ShortTitle>Repudiation of sent message</ShortTitle>
+      <Category>7f8201f1-2764-4209-87d7-99780e2b653f</Category>
+      <RelatedCategory />
+      <Description>The {source.Name} may deny having sent a message</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>The {source.Name} may deny having sent a message</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(flow crosses '54278458-da63-4553-8d2d-90cab8a822d3' or flow.5d49f613-2895-4259-89d9-ee887daf4305 is 'Yes') and  flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'No'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>b5893eaf-9fc3-4d0d-beb6-42e5c5aa656b</Id>
+      <ShortTitle>Communication Eavesdropping</ShortTitle>
+      <Category>e0da5e22-f13a-4771-9973-2eb933f28c46</Category>
+      <RelatedCategory />
+      <Description>An attacker may learn the content of the communication between the {source.Name} and the {target.Name}</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may learn the content of the communication between the {source.Name} and the {target.Name}</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>( source is '2514e1bd-30b5-490a-8799-a1c5065cb846' and flow crosses '54278458-da63-4553-8d2d-90cab8a822d3' )</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>12065e30-4034-4ef7-8a6c-f5d4ecdf906f</Id>
+      <ShortTitle>Distributed Denial of Service attack</ShortTitle>
+      <Category>bfd1f6ed-1b06-4216-9c7f-0fe3eb3329f6</Category>
+      <RelatedCategory />
+      <Description>The {source.Name} may flood the {target.Name} with network traffic, making it unavailable</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>The {source.Name} may flood the {target.Name} with network traffic, making it unavailable</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow crosses '54278458-da63-4553-8d2d-90cab8a822d3')</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>bd9ce826-80f3-4dbc-b33c-09bb7e052631</Id>
+      <ShortTitle>Denial of service through malformed message</ShortTitle>
+      <Category>bfd1f6ed-1b06-4216-9c7f-0fe3eb3329f6</Category>
+      <RelatedCategory />
+      <Description>The {source.Name} may send a specially crafted message to the {target.Name}, with the intent of exploiting a vulnerability to make it unavailable. </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>The {source.Name} may send a specially crafted message to the {target.Name}, with the intent of exploiting a vulnerability to make it unavailable. </Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>High</Value>
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>flow.5d49f613-2895-4259-89d9-ee887daf4305 is 'Yes'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>154533a0-bdb6-43ed-bd9e-967de617de0f</Id>
+      <ShortTitle>Signal jamming</ShortTitle>
+      <Category>bfd1f6ed-1b06-4216-9c7f-0fe3eb3329f6</Category>
+      <RelatedCategory />
+      <Description>An attacker may jam the signal from the {source.Name} causing the {target.Name} to become unavailable</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may jam the signal from the {source.Name} causing the {target.Name} to become unavailable</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow crosses '54278458-da63-4553-8d2d-90cab8a822d3') and target.f24ca3bb-dddd-470a-b5ab-29c2bee268dd is 'No'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>260b4708-8566-495b-816a-31d817556422</Id>
+      <ShortTitle>Unauthorized remote access to device</ShortTitle>
+      <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
+      <RelatedCategory />
+      <Description>An attacker may connect to the {source.Name} remotely</Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may connect to the {source.Name} remotely</Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>High</Value>
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (target.a11c4236-cd31-41fc-bd54-c935d6fd6b00 is 'No') and (flow crosses  '54278458-da63-4553-8d2d-90cab8a822d3')</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>8d3caf02-c3e7-4873-83bd-235e7e946179</Id>
+      <ShortTitle>Unauthorized execution of software</ShortTitle>
+      <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
+      <RelatedCategory />
+      <Description>An attacker may execute malware on the {target.Name} if the {target.Name} does not verfify the integrity and authenticity of the software. </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may execute malware on the {target.Name} if the {target.Name} does not verfify the integrity and authenticity of the software. </Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>High</Value>
+          </Values>
+          <Description>Priority</Description>
+          <Id>ce0dee0b-fd74-4262-954e-085bfb7ea590</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+  </ThreatTypes>
+</KnowledgeBase>
