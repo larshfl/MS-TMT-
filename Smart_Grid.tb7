@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.609" author="LAPTOP-GTP4U7EO\larsf" />
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.623" author="LAPTOP-GTP4U7EO\larsf" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -153,19 +153,6 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>6a4d6fc6-3d3a-4889-b447-5b4c6fee9a5b</Id>
-          <IsInherited>false</IsInherited>
-          <Name>d03abf9f-7a4d-4c65-9b8f-5562e693f2fd</Name>
-          <DisplayName>Hardware supports cryptgraphic operations</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
           <Id>18e8e327-cd2f-4ec0-9533-2aed463721e6</Id>
           <IsInherited>false</IsInherited>
           <Name>76c8337b-d79f-48ab-b58a-7a16e200d4fd</Name>
@@ -254,20 +241,7 @@
       <Representation>Rectangle</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation>Centered on stencil</ImageLocation>
-      <Attributes>
-        <Attribute>
-          <Id>5e166af2-322f-4f48-96cc-3bb2c2f4cc82</Id>
-          <IsInherited>false</IsInherited>
-          <Name>2bca5f8e-98ac-488e-ad17-e03df62ee57a</Name>
-          <DisplayName>New Property Attribute</DisplayName>
-          <Mode>Static</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>New Property Attribute Value</Value>
-          </AttributeValues>
-        </Attribute>
-      </Attributes>
+      <Attributes />
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -304,84 +278,6 @@
           <IsInherited>false</IsInherited>
           <Name>56c6ed87-ce3e-4676-b2c7-88798bedbd15</Name>
           <DisplayName>Stores Log Data</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-            <Value>No</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>bb6a7366-dd6c-46d2-aa58-c6fd9f2524ab</Id>
-          <IsInherited>false</IsInherited>
-          <Name>160d5b14-9565-4360-a4ae-fe092a226729</Name>
-          <DisplayName>Encrypted</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>9065fc43-e698-4267-a3d8-7512a2d9219b</Id>
-          <IsInherited>false</IsInherited>
-          <Name>0d96941f-8299-40e5-8555-00299e350b09</Name>
-          <DisplayName>Signed</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>052eb753-7304-499b-8e0e-2c75fc59026f</Id>
-          <IsInherited>false</IsInherited>
-          <Name>cff45ba1-a8e0-4881-8424-8b199e68d153</Name>
-          <DisplayName>Write Access</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-            <Value>No</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>a6e3ca72-63a9-4998-9499-8c0a837b4839</Id>
-          <IsInherited>false</IsInherited>
-          <Name>e22ea601-5ddf-48c5-b8fe-ad2453e665f6</Name>
-          <DisplayName>Removable Storage</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>1e59ab0b-d5df-46d4-b721-cbfde454b08e</Id>
-          <IsInherited>false</IsInherited>
-          <Name>64c0e436-33ab-43e2-8e80-170b2081dd6a</Name>
-          <DisplayName>Backup</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>dc8704e0-4504-424d-9464-4a43ffed5733</Id>
-          <IsInherited>false</IsInherited>
-          <Name>fe9c1729-a388-4aaf-a950-7353062bd685</Name>
-          <DisplayName>Shared</DisplayName>
           <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
@@ -518,6 +414,20 @@
           <AttributeValues>
             <Value>No</Value>
             <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>01fe6ea2-5b45-4186-bba0-f270e1adeb45</Id>
+          <IsInherited>false</IsInherited>
+          <Name>d78e4115-1d3c-48d6-acb3-7f2128191d25</Name>
+          <DisplayName>Provides replay protection</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+            <Value>Yes</Value>
+            <Value>Select</Value>
           </AttributeValues>
         </Attribute>
         <Attribute>
@@ -808,21 +718,7 @@
       <Representation>Ellipse</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation>Centered on stencil</ImageLocation>
-      <Attributes>
-        <Attribute>
-          <Id>749d047d-45c6-4cab-9e45-b78f3bf8088e</Id>
-          <IsInherited>false</IsInherited>
-          <Name>3a9ffa94-e3c3-4a6d-a4e2-9637c2743a59</Name>
-          <DisplayName>Analog or digital</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Analog</Value>
-            <Value>Digital</Value>
-          </AttributeValues>
-        </Attribute>
-      </Attributes>
+      <Attributes />
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -1156,125 +1052,12 @@
       <Description />
       <ParentElement>a622b89b-40dc-4ede-a95e-32161ab98344</ParentElement>
       <Image />
-      <ImageStream />
       <Hidden>false</Hidden>
       <Representation>Line</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation />
       <Attributes>
         <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
-          <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
           <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
           <IsInherited>true</IsInherited>
           <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
@@ -1323,76 +1106,14 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
           <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
           <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
-          <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
-          <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
-          <IsInherited>true</IsInherited>
-          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
-          <DisplayName>Provides Authentication</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
             <Value>Yes</Value>
           </AttributeValues>
         </Attribute>
@@ -1409,123 +1130,15 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
+          <Id>062dfd2e-3722-4070-a642-7679677905c4</Id>
           <IsInherited>true</IsInherited>
-          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
-          <DisplayName>Provides Confidentiality</DisplayName>
+          <Name>399259b5-9055-41cb-9dd5-1b904a085b0e</Name>
+          <DisplayName>Requires user authentication</DisplayName>
           <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
             <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
-          <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
-          <IsInherited>true</IsInherited>
-          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
-          <DisplayName>Provides Authentication</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
-          <IsInherited>true</IsInherited>
-          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
-          <DisplayName>Uses ARP</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
-          <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
-          <IsInherited>true</IsInherited>
-          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
-          <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
-          <IsInherited>true</IsInherited>
-          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
-          <DisplayName>Provides Authentication</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>IPsec</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
-          <IsInherited>true</IsInherited>
-          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
-          <DisplayName>Uses ARP</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
           </AttributeValues>
         </Attribute>
         <Attribute>
@@ -1673,15 +1286,86 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
           <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
           <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
             <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>062dfd2e-3722-4070-a642-7679677905c4</Id>
+          <IsInherited>true</IsInherited>
+          <Name>399259b5-9055-41cb-9dd5-1b904a085b0e</Name>
+          <DisplayName>Requires user authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
+          <IsInherited>true</IsInherited>
+          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
+          <DisplayName>Provides Authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>IPsec</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
             <Value>Yes</Value>
           </AttributeValues>
         </Attribute>
@@ -1770,15 +1454,86 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
           <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
           <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
             <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>062dfd2e-3722-4070-a642-7679677905c4</Id>
+          <IsInherited>true</IsInherited>
+          <Name>399259b5-9055-41cb-9dd5-1b904a085b0e</Name>
+          <DisplayName>Requires user authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
+          <IsInherited>true</IsInherited>
+          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
+          <DisplayName>Provides Authentication</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>IPsec</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
             <Value>Yes</Value>
           </AttributeValues>
         </Attribute>
@@ -1867,19 +1622,6 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
           <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
           <IsInherited>true</IsInherited>
           <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
@@ -1964,19 +1706,6 @@
           </AttributeValues>
         </Attribute>
         <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
           <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
           <IsInherited>true</IsInherited>
           <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
@@ -2057,19 +1786,6 @@
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
-            <Value>Yes</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>93bc873a-9ece-4ec1-b782-ba43ae12e0ca</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2c1e8bb8-070f-4b62-9818-43a08b911aeb</Name>
-          <DisplayName>Human input or output</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
             <Value>Yes</Value>
           </AttributeValues>
         </Attribute>
@@ -2195,12 +1911,395 @@
       <Description />
       <ParentElement>a622b89b-40dc-4ede-a95e-32161ab98344</ParentElement>
       <Image />
-      <ImageStream />
       <Hidden>false</Hidden>
       <Representation>Line</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation />
       <Attributes>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
+          <IsInherited>true</IsInherited>
+          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
+          <DisplayName>Layer 1 medium</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
+          <DisplayName>Layer 3 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
         <Attribute>
           <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
           <IsInherited>true</IsInherited>
@@ -3082,7 +3181,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Wireless'</Include>
-        <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.2c1e8bb8-070f-4b62-9818-43a08b911aeb is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
+        <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>3071ef4d-7288-413d-8243-cc3eca2c7e44</Id>
       <ShortTitle>Tampering of communication data</ShortTitle>
@@ -5077,7 +5176,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>flow is  'aba58657-bc03-409c-a6e0-efd34143ada7' and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Wireless') </Include>
+        <Include>flow is  'aba58657-bc03-409c-a6e0-efd34143ada7' and source is  '5fb1612f-ea55-4b86-93e2-d354ee17055d' and  (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Wireless') </Include>
         <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>9c25b03e-4123-4164-9961-9135363d5d7f</Id>
