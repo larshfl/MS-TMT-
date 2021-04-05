@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.837" author="LAPTOP-GTP4U7EO\larsf" />
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.841" author="LAPTOP-GTP4U7EO\larsf" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -557,6 +557,24 @@
           </AttributeValues>
         </Attribute>
       </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Operator Input</Name>
+      <ID>e15962c0-46bd-4035-91d6-f65623dd4187</ID>
+      <Description />
+      <ParentElement>ROOT</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -1196,73 +1214,6 @@
       </StencilConstraints>
     </ElementType>
     <ElementType>
-      <Name>Operator input</Name>
-      <ID>eb761532-bf13-4a61-9fd8-ad8c64ff6753</ID>
-      <Description />
-      <ParentElement>a622b89b-40dc-4ede-a95e-32161ab98344</ParentElement>
-      <Image />
-      <Hidden>false</Hidden>
-      <Representation>Line</Representation>
-      <StrokeThickness>0</StrokeThickness>
-      <ImageLocation />
-      <Attributes>
-        <Attribute>
-          <Id>3d1c3ef7-97cd-43c3-9018-ed0b3f168d34</Id>
-          <IsInherited>true</IsInherited>
-          <Name>44f16d0d-a124-478d-b3f3-cc02744718ae</Name>
-          <DisplayName>Layer 1 medium</DisplayName>
-          <Mode>Static</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Select</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>6fddee24-c25a-410e-88ac-e1acb0c97c18</Id>
-          <IsInherited>true</IsInherited>
-          <Name>2810db64-cf78-4af0-b53b-9c3bb18aff35</Name>
-          <DisplayName>Layer 3 protocol</DisplayName>
-          <Mode>Static</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Select</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
-          <IsInherited>true</IsInherited>
-          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
-          <DisplayName>Layer 4 protocol</DisplayName>
-          <Mode>Static</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>Select</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
-          <IsInherited>true</IsInherited>
-          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
-          <DisplayName>Uses ARP</DisplayName>
-          <Mode>Static</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>No</Value>
-          </AttributeValues>
-        </Attribute>
-      </Attributes>
-      <StencilConstraints>
-        <StencilConstraint>
-          <SelectedStencilType>Any</SelectedStencilType>
-          <SelectedStencilConnection>Any</SelectedStencilConnection>
-        </StencilConstraint>
-      </StencilConstraints>
-    </ElementType>
-    <ElementType>
       <Name>IEC 60870_5_104</Name>
       <ID>d3ca6817-ecba-4b16-8c05-4b26ddddd8d1</ID>
       <Description />
@@ -1484,7 +1435,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4' ) </Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>85abfe10-724c-4390-8892-bbc6ab43def1</Id>
       <ShortTitle>Spoofing the source</ShortTitle>
@@ -1558,7 +1509,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or  source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or  source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and  (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or  target is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4') </Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>fbe2440d-581e-4c67-a7b0-6533304ba957</Id>
       <ShortTitle>Spoofing the target</ShortTitle>
@@ -1706,7 +1657,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>( source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or target is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and ( flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>38d80e9f-3c09-4c25-8cb9-f76c45511550</Id>
       <ShortTitle>Man In The Middle Attack</ShortTitle>
@@ -1982,7 +1933,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4') </Include>
-        <Exclude>flow.d78e4115-1d3c-48d6-acb3-7f2128191d25 is 'Yes' or  flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or  flow is 'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.d78e4115-1d3c-48d6-acb3-7f2128191d25 is 'Yes' or  flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>12ee451b-6b0d-4dce-be00-c74db43cddaa</Id>
       <ShortTitle>Replay attack</ShortTitle>
@@ -2120,7 +2071,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>3071ef4d-7288-413d-8243-cc3eca2c7e44</Id>
       <ShortTitle>Tampering of communication data</ShortTitle>
@@ -2386,7 +2337,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>source.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes' or  source.876a3f9e-9781-4a78-94da-6575fd1d8562 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>source.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes' or  source.876a3f9e-9781-4a78-94da-6575fd1d8562 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>be138c66-793b-4c0a-b4ef-593e166164fa</Id>
       <ShortTitle>Repudiation of received data</ShortTitle>
@@ -2598,7 +2549,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4' )</Include>
-        <Exclude>target.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>target.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>907b8fb4-1235-4859-b449-78c5cea26504</Id>
       <ShortTitle>Repudiation of actions performed on process</ShortTitle>
@@ -3460,7 +3411,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>3602d973-65b1-4c2f-8ff3-4c94a89c7e39</Id>
       <ShortTitle>Interruption of Data Flow</ShortTitle>
@@ -3682,7 +3633,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636'  or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' )  and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>8d3caf02-c3e7-4873-83bd-235e7e946179</Id>
       <ShortTitle>Execution of malware</ShortTitle>
@@ -3746,7 +3697,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>target.f7e71688-d496-4601-934e-34ef3412f9a2 is 'Yes' or target is  '534f3d98-6634-4182-a2dd-699c214c58b5' or  target is '2c422ab1-65ea-4dcf-bd39-02d970063cff' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>target.f7e71688-d496-4601-934e-34ef3412f9a2 is 'Yes' or target is  '534f3d98-6634-4182-a2dd-699c214c58b5' or  target is '2c422ab1-65ea-4dcf-bd39-02d970063cff' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>bb85c466-02aa-4752-8339-db4d788a2488</Id>
       <ShortTitle>Exploitation of publicly disclosed vulnerabilities</ShortTitle>
@@ -3820,7 +3771,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>97111423-fb12-4291-89ce-8ed4fd47d464</Id>
       <ShortTitle>Exploitation of zero day vulnerability</ShortTitle>
@@ -4012,7 +3963,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>( source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or target is  '2c422ab1-65ea-4dcf-bd39-02d970063cff' or  target is '534f3d98-6634-4182-a2dd-699c214c58b5'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or target is  '2c422ab1-65ea-4dcf-bd39-02d970063cff' or  target is '534f3d98-6634-4182-a2dd-699c214c58b5'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>f8f29cb3-088e-48aa-9ce7-de14367d8119</Id>
       <ShortTitle>Unauthorized executions of commands</ShortTitle>
@@ -4086,7 +4037,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>673b2647-d815-40d8-8a7d-6903d9d7089b</Id>
       <ShortTitle>Exploitation of unsused services or features</ShortTitle>
@@ -4160,7 +4111,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>target.76c8337b-d79f-48ab-b58a-7a16e200d4fd is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>target.76c8337b-d79f-48ab-b58a-7a16e200d4fd is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>f15b24df-4dde-42f5-a9e9-2c3e9ad1eaf0</Id>
       <ShortTitle>Exploitation of lack of input validation</ShortTitle>
@@ -4234,7 +4185,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.399259b5-9055-41cb-9dd5-1b904a085b0e is 'No' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' or flow is  'eb761532-bf13-4a61-9fd8-ad8c64ff6753'</Exclude>
+        <Exclude>flow.399259b5-9055-41cb-9dd5-1b904a085b0e is 'No' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>8b2bfcf8-f905-4748-95c5-fac3192fd2bd</Id>
       <ShortTitle>Exploitation of weak authentication</ShortTitle>
