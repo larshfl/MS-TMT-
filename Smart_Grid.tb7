@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.841" author="LAPTOP-GTP4U7EO\larsf" />
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.851" author="LAPTOP-GTP4U7EO\larsf" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -986,6 +986,24 @@
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>a622b89b-40dc-4ede-a95e-32161ab98344</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Router</Name>
+      <ID>24ee973e-5dbd-433d-863a-f34a97a4cfa8</ID>
+      <Description />
+      <ParentElement>67ef6a3a-25f1-4ddb-8c02-b2b201cd3636</ParentElement>
+      <Image />
+      <Hidden>false</Hidden>
+      <Representation>Ellipse</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes />
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
           <SelectedStencilConnection>Any</SelectedStencilConnection>
         </StencilConstraint>
       </StencilConstraints>
@@ -2070,7 +2088,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>3071ef4d-7288-413d-8243-cc3eca2c7e44</Id>
@@ -3154,7 +3172,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Wireless' and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Wireless' or flow is  'f39d0f89-84ae-43e7-a3c6-e6a904534327') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>154533a0-bdb6-43ed-bd9e-967de617de0f</Id>
@@ -3410,7 +3428,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>3602d973-65b1-4c2f-8ff3-4c94a89c7e39</Id>
@@ -3966,7 +3984,7 @@
         <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or target is  '2c422ab1-65ea-4dcf-bd39-02d970063cff' or  target is '534f3d98-6634-4182-a2dd-699c214c58b5'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>f8f29cb3-088e-48aa-9ce7-de14367d8119</Id>
-      <ShortTitle>Unauthorized executions of commands</ShortTitle>
+      <ShortTitle>Unauthorized execution of commands</ShortTitle>
       <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
       <RelatedCategory />
       <Description>An attacker may attempt to execute unauthorized commands on the {target.Name}.</Description>
@@ -4188,7 +4206,7 @@
         <Exclude>flow.399259b5-9055-41cb-9dd5-1b904a085b0e is 'No' or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes' </Exclude>
       </GenerationFilters>
       <Id>8b2bfcf8-f905-4748-95c5-fac3192fd2bd</Id>
-      <ShortTitle>Exploitation of weak authentication</ShortTitle>
+      <ShortTitle>Exploitation of weak user authentication</ShortTitle>
       <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
       <RelatedCategory />
       <Description>An attakcer may be able to exploit weak credentials, such as easily guessable credentials and factory set credentials to obtain elevated privileges on the{target.Name}.</Description>
