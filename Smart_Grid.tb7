@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.887" author="LAPTOP-GTP4U7EO\larsf" />
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="1.0.0.899" author="LAPTOP-GTP4U7EO\larsf" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -1878,6 +1878,170 @@
         </StencilConstraint>
       </StencilConstraints>
     </ElementType>
+    <ElementType>
+      <Name>BGP</Name>
+      <ID>84976c46-959d-4d2f-8e12-5236df411130</ID>
+      <Description>Border Gateway Protocol</Description>
+      <ParentElement>a622b89b-40dc-4ede-a95e-32161ab98344</ParentElement>
+      <Image />
+      <ImageStream />
+      <Hidden>false</Hidden>
+      <Representation>Line</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation />
+      <Attributes>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>TCP</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5944d3c9-3e5f-4edb-988c-16565b73a836</Id>
+          <IsInherited>true</IsInherited>
+          <Name>ef8e305b-eaca-4d0d-a14d-4cc8e7d356ac</Name>
+          <DisplayName>Provides remote update for software or firmware</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>TCP</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5944d3c9-3e5f-4edb-988c-16565b73a836</Id>
+          <IsInherited>true</IsInherited>
+          <Name>ef8e305b-eaca-4d0d-a14d-4cc8e7d356ac</Name>
+          <DisplayName>Provides remote update for software or firmware</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>61ff1198-49a0-4e56-b1bc-56140231ac47</Id>
+          <IsInherited>true</IsInherited>
+          <Name>4ca6357c-be0e-450c-8a38-d4426a9907a9</Name>
+          <DisplayName>Layer 4 protocol</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>TCP</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>Uses ARP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5944d3c9-3e5f-4edb-988c-16565b73a836</Id>
+          <IsInherited>true</IsInherited>
+          <Name>ef8e305b-eaca-4d0d-a14d-4cc8e7d356ac</Name>
+          <DisplayName>Provides remote update for software or firmware</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
   </StandardElements>
   <ThreatCategories>
     <ThreatCategory>
@@ -2620,6 +2784,70 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
+        <Include>( source is '2514e1bd-30b5-490a-8799-a1c5065cb846'  and source is '24ee973e-5dbd-433d-863a-f34a97a4cfa8' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4' ) and  flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>3bac9148-cf6e-4930-b920-836b897ea871</Id>
+      <ShortTitle>BGP hijacking</ShortTitle>
+      <Category>66d93b58-6d13-4431-aa06-65906cc551f0</Category>
+      <RelatedCategory />
+      <Description>An attacker may attempt to hijack IP packets by advertising IP prefixes or subprefixes which is not part of the attacker autohonous system (network). Additionally, an attacker may attempt to hijack communication by altering the autonomous system path, so that the best path appears to go through the attacker autonomous system.  </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may attempt to hijack IP packets by advertising IP prefixes or subprefixes which is not part of the attacker autohonous system (network). Additionally, an attacker may attempt to hijack communication by altering the autonomous system path, so that the best path appears to go through the attacker autonomous system.  </Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>e6e3b782-a2f7-46dc-8b89-186b4eeebc47</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>401186db-9007-42f1-aff8-afb11c4c2e7b</Name>
+          <Label>Loss of power</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>401186db-9007-42f1-aff8-afb11c4c2e7b</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>13611031-846a-45fd-a94d-bbad41734a23</Name>
+          <Label>Difficulties of implementing mitigation</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>13611031-846a-45fd-a94d-bbad41734a23</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Name>
+          <Label>Affected System</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
         <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>(flow.261c742e-c187-4b1c-a8c6-91ffb8b189c9 is 'Yes') or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
@@ -2887,7 +3115,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>source.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes' or  source.876a3f9e-9781-4a78-94da-6575fd1d8562 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
+        <Exclude>target.aa7975a6-bc55-419f-871d-f1b49a4a4ca4 is 'Yes' or  source.876a3f9e-9781-4a78-94da-6575fd1d8562 is 'Yes'  or flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>be138c66-793b-4c0a-b4ef-593e166164fa</Id>
       <ShortTitle>Repudiation of received data</ShortTitle>
@@ -3236,6 +3464,70 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
+        <Include>(flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Exclude>flow.34be12a6-828c-45f4-8260-64544e739e7c is 'No'</Exclude>
+      </GenerationFilters>
+      <Id>79b2564e-35c7-404a-80bf-914847598649</Id>
+      <ShortTitle>Downgrade attack</ShortTitle>
+      <Category>e0da5e22-f13a-4771-9973-2eb933f28c46</Category>
+      <RelatedCategory />
+      <Description>An attacker may attempt to cause the communication to fall back to older and less secure protocols. </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may attempt to cause the communication to fall back to older and less secure protocols. </Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>e6e3b782-a2f7-46dc-8b89-186b4eeebc47</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>401186db-9007-42f1-aff8-afb11c4c2e7b</Name>
+          <Label>Loss of power</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>401186db-9007-42f1-aff8-afb11c4c2e7b</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>13611031-846a-45fd-a94d-bbad41734a23</Name>
+          <Label>Difficulties of implementing mitigation</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>13611031-846a-45fd-a94d-bbad41734a23</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Name>
+          <Label>Affected System</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
         <Include>flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Fiber optic' and flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'No'  and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes' or  flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
@@ -3448,6 +3740,70 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
+        <Include>( flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4' )</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>e24cc55e-787a-467b-b4d6-45f135dcf961</Id>
+      <ShortTitle>Disclosure of encrypted information</ShortTitle>
+      <Category>e0da5e22-f13a-4771-9973-2eb933f28c46</Category>
+      <RelatedCategory />
+      <Description>An attacker may attempt to learn the contents of the communication if, for instance, weak encryption standards or weak encryption keys are used. </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may attempt to learn the contents of the communication if, for instance, weak encryption standards or weak encryption keys are used. </Value>
+          </Values>
+          <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Description>Priority</Description>
+          <Id>e6e3b782-a2f7-46dc-8b89-186b4eeebc47</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>401186db-9007-42f1-aff8-afb11c4c2e7b</Name>
+          <Label>Loss of power</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>401186db-9007-42f1-aff8-afb11c4c2e7b</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>13611031-846a-45fd-a94d-bbad41734a23</Name>
+          <Label>Difficulties of implementing mitigation</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>13611031-846a-45fd-a94d-bbad41734a23</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Name>
+          <Label>Affected System</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
         <Include>( source is '2514e1bd-30b5-490a-8799-a1c5065cb846' and target is  '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>flow.ceec20f7-cf04-434f-b305-f1732c1a6358 is 'Yes'</Exclude>
       </GenerationFilters>
@@ -3595,60 +3951,6 @@
           <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
           <AttributeType>0</AttributeType>
         </ThreatMetaDatum>
-        <ThreatMetaDatum>
-          <Name>Priority</Name>
-          <Label>Priority</Label>
-          <HideFromUI>false</HideFromUI>
-          <Values>
-            <Value xsi:nil="true" />
-          </Values>
-          <Description>Priority</Description>
-          <Id>e6e3b782-a2f7-46dc-8b89-186b4eeebc47</Id>
-          <AttributeType>1</AttributeType>
-        </ThreatMetaDatum>
-        <ThreatMetaDatum>
-          <Name>401186db-9007-42f1-aff8-afb11c4c2e7b</Name>
-          <Label>Loss of power</Label>
-          <HideFromUI>false</HideFromUI>
-          <Values>
-            <Value xsi:nil="true" />
-          </Values>
-          <Id>401186db-9007-42f1-aff8-afb11c4c2e7b</Id>
-          <AttributeType>1</AttributeType>
-        </ThreatMetaDatum>
-        <ThreatMetaDatum>
-          <Name>13611031-846a-45fd-a94d-bbad41734a23</Name>
-          <Label>Difficulties of implementing mitigation</Label>
-          <HideFromUI>false</HideFromUI>
-          <Values>
-            <Value xsi:nil="true" />
-          </Values>
-          <Id>13611031-846a-45fd-a94d-bbad41734a23</Id>
-          <AttributeType>1</AttributeType>
-        </ThreatMetaDatum>
-        <ThreatMetaDatum>
-          <Name>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Name>
-          <Label>Affected System</Label>
-          <HideFromUI>false</HideFromUI>
-          <Values>
-            <Value xsi:nil="true" />
-          </Values>
-          <Id>234d0e49-1ef1-423a-b1d1-026d2b4a4c39</Id>
-          <AttributeType>1</AttributeType>
-        </ThreatMetaDatum>
-      </PropertiesMetaData>
-    </ThreatType>
-    <ThreatType>
-      <GenerationFilters>
-        <Include>(flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.34be12a6-828c-45f4-8260-64544e739e7c is 'No'</Exclude>
-      </GenerationFilters>
-      <Id>79b2564e-35c7-404a-80bf-914847598649</Id>
-      <ShortTitle>Downgrade attack</ShortTitle>
-      <Category>bfd1f6ed-1b06-4216-9c7f-0fe3eb3329f6</Category>
-      <RelatedCategory />
-      <Description />
-      <PropertiesMetaData>
         <ThreatMetaDatum>
           <Name>Priority</Name>
           <Label>Priority</Label>
@@ -4445,14 +4747,24 @@
       <ShortTitle>Unauthorized access through vendor VPN</ShortTitle>
       <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
       <RelatedCategory />
-      <Description>An attacker may exploit vendor VPN access to obtain unauthorized access to the {target.Name} if authentication mechanisms are weak or not in use.</Description>
+      <Description>An attacker may attempt to obtain access to the {target.Name} by compromising the vendor organization.</Description>
       <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatShortDescription</Name>
+          <Label>Short Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>An attacker may attempt to gain access to the {source.Name} by first compromising the vendor organization. </Value>
+          </Values>
+          <Id>06eab29d-82f7-4208-b59f-5c90c0d8cf9d</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
         <ThreatMetaDatum>
           <Name>UserThreatDescription</Name>
           <Label>Description</Label>
           <HideFromUI>false</HideFromUI>
           <Values>
-            <Value>An attacker may exploit vendor VPN access to obtain unauthorized access to the {target.Name} if authentication mechanisms are weak or not in use.</Value>
+            <Value>An attacker may attempt to obtain access to the {target.Name} by compromising the vendor organization.</Value>
           </Values>
           <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
           <AttributeType>0</AttributeType>
