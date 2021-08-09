@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="2.0.0.1" author="LAPTOP-GTP4U7EO\larsf" />
+  <Manifest name="Smart grid" id="84c94f1d-c09e-46a1-bf25-5786592e1e8f" version="2.0.0.31" author="LAPTOP-GTP4U7EO\larsf" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -194,6 +194,20 @@
             <Value>No</Value>
           </AttributeValues>
         </Attribute>
+        <Attribute>
+          <Id>b23ffdea-7d37-4731-b036-c07cc56f06bf</Id>
+          <IsInherited>false</IsInherited>
+          <Name>99626ec9-11ef-45e9-869b-f317ad42058f</Name>
+          <DisplayName>Stores credential</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Select</Value>
+            <Value>Yes</Value>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
       </Attributes>
       <StencilConstraints>
         <StencilConstraint>
@@ -291,26 +305,6 @@
           <AttributeValues>
             <Value>Yes</Value>
             <Value>No</Value>
-          </AttributeValues>
-        </Attribute>
-        <Attribute>
-          <Id>311a01d2-6a2e-42bd-aeb4-0110c43fbb0c</Id>
-          <IsInherited>false</IsInherited>
-          <Name>7fb6922b-5512-48de-9d51-f07fe6f70146</Name>
-          <DisplayName>Store Type</DisplayName>
-          <Mode>Dynamic</Mode>
-          <Type>List</Type>
-          <Inheritance>Virtual</Inheritance>
-          <AttributeValues>
-            <Value>SQL Relational Database</Value>
-            <Value>Non Relational Database</Value>
-            <Value>File System</Value>
-            <Value>Registry</Value>
-            <Value>Configuration</Value>
-            <Value>Cache</Value>
-            <Value>HTML5 Storage</Value>
-            <Value>Cookie</Value>
-            <Value>Device</Value>
           </AttributeValues>
         </Attribute>
         <Attribute>
@@ -654,7 +648,20 @@
       <Representation>Ellipse</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation>Centered on stencil</ImageLocation>
-      <Attributes />
+      <Attributes>
+        <Attribute>
+          <Id>d0d84651-20d4-4cbb-a3d6-827eede590e4</Id>
+          <IsInherited>false</IsInherited>
+          <Name>7ea491c5-59b4-4788-98a5-6d19b0448801</Name>
+          <DisplayName>test</DisplayName>
+          <Mode>Static</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>yes</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -832,7 +839,20 @@
       <Representation>ParallelLines</Representation>
       <StrokeThickness>0</StrokeThickness>
       <ImageLocation>Centered on stencil</ImageLocation>
-      <Attributes />
+      <Attributes>
+        <Attribute>
+          <Id>ff01acb8-4a02-4d61-b61d-648c55f1dbe0</Id>
+          <IsInherited>false</IsInherited>
+          <Name>4aad96b2-078d-4962-a660-a579f6c9021d</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Static</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>SQL Relational Database</Value>
+          </AttributeValues>
+        </Attribute>
+      </Attributes>
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -856,7 +876,7 @@
           <IsInherited>true</IsInherited>
           <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
           <DisplayName>Encrypted</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -868,7 +888,7 @@
           <IsInherited>true</IsInherited>
           <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
           <DisplayName>Integrity Protected</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -880,7 +900,7 @@
           <IsInherited>true</IsInherited>
           <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
           <DisplayName>Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -892,7 +912,7 @@
           <IsInherited>true</IsInherited>
           <Name>edb23fc2-fcf4-4d19-9d12-71887aa3beda</Name>
           <DisplayName>Repudiation Protected</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -904,7 +924,7 @@
           <IsInherited>true</IsInherited>
           <Name>d78e4115-1d3c-48d6-acb3-7f2128191d25</Name>
           <DisplayName>Replay Protected</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -916,7 +936,7 @@
           <IsInherited>true</IsInherited>
           <Name>34be12a6-828c-45f4-8260-64544e739e7c</Name>
           <DisplayName>Supports older cryptographic protocols</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -928,7 +948,7 @@
           <IsInherited>true</IsInherited>
           <Name>2c7148dc-7746-47ac-8c87-8ada92e3f635</Name>
           <DisplayName>Data or Command&amp;Code</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -940,7 +960,7 @@
           <IsInherited>true</IsInherited>
           <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
           <DisplayName>Transmits credentials</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -952,7 +972,7 @@
           <IsInherited>true</IsInherited>
           <Name>ef8e305b-eaca-4d0d-a14d-4cc8e7d356ac</Name>
           <DisplayName>Remote update of software or firmware</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -964,7 +984,7 @@
           <IsInherited>true</IsInherited>
           <Name>59c9b5f1-2838-44ba-8a96-de535d2ef871</Name>
           <DisplayName>TCP</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -976,7 +996,7 @@
           <IsInherited>true</IsInherited>
           <Name>e72aa008-3050-4787-8f05-b1b877679b5b</Name>
           <DisplayName>UDP</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -988,7 +1008,7 @@
           <IsInherited>true</IsInherited>
           <Name>d519816f-8c85-4c0d-b200-f0fa3abeffe4</Name>
           <DisplayName>IP</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1000,7 +1020,7 @@
           <IsInherited>true</IsInherited>
           <Name>383903e6-fbec-4ce5-b06b-176ad47d9cfb</Name>
           <DisplayName>IPsec</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1012,7 +1032,175 @@
           <IsInherited>true</IsInherited>
           <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
           <DisplayName>ARP</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>f95c26a3-b373-4398-a892-3a0d9ce95e6a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>fbf3cbf8-6a7d-4dbb-9664-4b7900e30074</Name>
+          <DisplayName>Encrypted</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>077cd932-a4b9-466d-9d9e-5901b42bf38a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>261c742e-c187-4b1c-a8c6-91ffb8b189c9</Name>
+          <DisplayName>Integrity Protected</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>ecf6f0d0-6283-4bd3-8228-ac680753436f</Id>
+          <IsInherited>true</IsInherited>
+          <Name>1788b37b-42c7-4ae5-8cd8-d01b866ac2f0</Name>
+          <DisplayName>Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>23c0200c-f10f-4dd2-9025-6ce742cdd470</Id>
+          <IsInherited>true</IsInherited>
+          <Name>edb23fc2-fcf4-4d19-9d12-71887aa3beda</Name>
+          <DisplayName>Repudiation Protected</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>01fe6ea2-5b45-4186-bba0-f270e1adeb45</Id>
+          <IsInherited>true</IsInherited>
+          <Name>d78e4115-1d3c-48d6-acb3-7f2128191d25</Name>
+          <DisplayName>Replay Protected</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>495754b0-f017-4768-a4be-2d2ad5eb90be</Id>
+          <IsInherited>true</IsInherited>
+          <Name>34be12a6-828c-45f4-8260-64544e739e7c</Name>
+          <DisplayName>Supports older cryptographic protocols</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5841eb7c-7610-471c-bdda-1ae9d768930c</Id>
+          <IsInherited>true</IsInherited>
+          <Name>2c7148dc-7746-47ac-8c87-8ada92e3f635</Name>
+          <DisplayName>Data or Command&amp;Code</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Data</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>a6b6d304-d1e6-4cdf-a7f2-2df16463ce11</Id>
+          <IsInherited>true</IsInherited>
+          <Name>099fa6e4-a7cb-471f-996c-17f0d5d68e18</Name>
+          <DisplayName>Transmits credentials</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5944d3c9-3e5f-4edb-988c-16565b73a836</Id>
+          <IsInherited>true</IsInherited>
+          <Name>ef8e305b-eaca-4d0d-a14d-4cc8e7d356ac</Name>
+          <DisplayName>Remote update of software or firmware</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>6300f4e7-fecc-4f9f-9afd-1696fe4cf5b0</Id>
+          <IsInherited>true</IsInherited>
+          <Name>59c9b5f1-2838-44ba-8a96-de535d2ef871</Name>
+          <DisplayName>TCP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>746109b4-57ef-4b64-8529-657f2709b904</Id>
+          <IsInherited>true</IsInherited>
+          <Name>e72aa008-3050-4787-8f05-b1b877679b5b</Name>
+          <DisplayName>UDP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>04ffac23-1549-486a-b3f3-8daf85b3b5a6</Id>
+          <IsInherited>true</IsInherited>
+          <Name>d519816f-8c85-4c0d-b200-f0fa3abeffe4</Name>
+          <DisplayName>IP</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>5056fafe-5951-45b4-ba65-bbee88de197f</Id>
+          <IsInherited>true</IsInherited>
+          <Name>383903e6-fbec-4ce5-b06b-176ad47d9cfb</Name>
+          <DisplayName>IPsec</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>c4633b57-32f1-45af-bcff-6128d56fc0c5</Id>
+          <IsInherited>true</IsInherited>
+          <Name>f9ad816a-800e-439b-9930-4e01840429f3</Name>
+          <DisplayName>ARP</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1134,7 +1322,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4' ) </Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>85abfe10-724c-4390-8892-bbc6ab43def1</Id>
       <ShortTitle>Spoofing the source</ShortTitle>
@@ -1208,7 +1396,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or  source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or  source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and  (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or  target is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4') </Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'  or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>fbe2440d-581e-4c67-a7b0-6533304ba957</Id>
       <ShortTitle>Spoofing the target</ShortTitle>
@@ -1356,7 +1544,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>( source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or target is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and ( flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>38d80e9f-3c09-4c25-8cb9-f76c45511550</Id>
       <ShortTitle>Man In The Middle Attack</ShortTitle>
@@ -1558,7 +1746,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4') </Include>
-        <Exclude>flow.d78e4115-1d3c-48d6-acb3-7f2128191d25 is 'Yes' </Exclude>
+        <Exclude>flow.d78e4115-1d3c-48d6-acb3-7f2128191d25 is 'Yes'  or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>12ee451b-6b0d-4dce-be00-c74db43cddaa</Id>
       <ShortTitle>Replay attack</ShortTitle>
@@ -1621,7 +1809,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>( source is '2514e1bd-30b5-490a-8799-a1c5065cb846'  and source is '4292ff80-023e-40c7-ab82-b345f3c215c3' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4' ) and  flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Include>
+        <Include>( source is '2514e1bd-30b5-490a-8799-a1c5065cb846'  and target is '4292ff80-023e-40c7-ab82-b345f3c215c3' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses '1e9b8b9a-34f4-4089-8edb-e162a49838e4' ) and  flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Include>
         <Exclude />
       </GenerationFilters>
       <Id>3bac9148-cf6e-4930-b920-836b897ea871</Id>
@@ -1686,7 +1874,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>3071ef4d-7288-413d-8243-cc3eca2c7e44</Id>
       <ShortTitle>Tampering of communication data</ShortTitle>
@@ -1750,7 +1938,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Fiber optic' and  (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
+        <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>999b4397-4cc6-4376-af4d-c76cfc1da2be</Id>
       <ShortTitle>Injection of data in fiber optical cables</ShortTitle>
@@ -1813,7 +2001,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' and target.7fb6922b-5512-48de-9d51-f07fe6f70146 is 'SQL Relational Database') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' and target.4aad96b2-078d-4962-a660-a579f6c9021d is 'SQL Relational Database') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>target.1eb0a7c6-de06-4194-ae85-ae755ac1e0a0 is 'Yes' or flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>dfe41a90-f4d8-4f34-beaa-079624b588f3</Id>
@@ -1952,7 +2140,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.edb23fc2-fcf4-4d19-9d12-71887aa3beda is 'Yes'</Exclude>
+        <Exclude>flow.edb23fc2-fcf4-4d19-9d12-71887aa3beda is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>be138c66-793b-4c0a-b4ef-593e166164fa</Id>
       <ShortTitle>Repudiation of received data</ShortTitle>
@@ -2026,7 +2214,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' )and (flow is 'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.edb23fc2-fcf4-4d19-9d12-71887aa3beda is 'Yes'</Exclude>
+        <Exclude>flow.edb23fc2-fcf4-4d19-9d12-71887aa3beda is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>01c92c56-3314-42dd-bce5-f6424bbdcf98</Id>
       <ShortTitle>Repudiation of sent data</ShortTitle>
@@ -2238,7 +2426,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes'</Exclude>
+        <Exclude>flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>b5893eaf-9fc3-4d0d-beb6-42e5c5aa656b</Id>
       <ShortTitle>Data Flow Sniffing</ShortTitle>
@@ -2366,7 +2554,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>flow.44f16d0d-a124-478d-b3f3-cc02744718ae is 'Fiber optic' and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes' </Exclude>
+        <Exclude>flow.fbf3cbf8-6a7d-4dbb-9664-4b7900e30074 is 'Yes'  or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>4d5ae2c2-1d6f-4079-bacd-4260bf98af76</Id>
       <ShortTitle>Wiretapping of fiber optic cables</ShortTitle>
@@ -2503,7 +2691,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or  source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and  target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or  source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and  (target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is  '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344' and flow.099fa6e4-a7cb-471f-996c-17f0d5d68e18 is 'Yes'  ) and  (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>target.ae4f6d99-24c0-4391-b600-2f4012377bc9 is 'No'</Exclude>
       </GenerationFilters>
       <Id>d6bbdb85-907c-4cea-8a8a-5bbbfd930780</Id>
@@ -2705,7 +2893,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude />
       </GenerationFilters>
       <Id>19dd768b-755d-4109-9bf8-99776aecc281</Id>
@@ -2833,7 +3021,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' ) and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude />
       </GenerationFilters>
       <Id>bd9ce826-80f3-4dbc-b33c-09bb7e052631</Id>
@@ -3154,7 +3342,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude />
+        <Exclude>flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>3602d973-65b1-4c2f-8ff3-4c94a89c7e39</Id>
       <ShortTitle>Interruption of Data Flow</ShortTitle>
@@ -3376,20 +3564,20 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636'  or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' )  and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses  '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>(flow.2c7148dc-7746-47ac-8c87-8ada92e3f635 is 'Data' and target.68061a2a-8d39-4e3d-84ac-075ae522d8db is 'Yes' ) or (target.a11c4236-cd31-41fc-bd54-c935d6fd6b00 is 'Yes' )</Exclude>
+        <Exclude>(target.a11c4236-cd31-41fc-bd54-c935d6fd6b00 is 'Yes' ) or flow is  '84976c46-959d-4d2f-8e12-5236df411130'</Exclude>
       </GenerationFilters>
       <Id>8d3caf02-c3e7-4873-83bd-235e7e946179</Id>
       <ShortTitle>Execution of malware</ShortTitle>
       <Category>555172d8-70fc-42bb-9485-01cab71685b3</Category>
       <RelatedCategory />
-      <Description>An attacker may attempt to use an exploit the lack of input validation and software autentication to execute malware on the {target.Name}.</Description>
+      <Description>An attacker may attempt to use an exploit the lack of software autentication to execute malware on the {target.Name}.</Description>
       <PropertiesMetaData>
         <ThreatMetaDatum>
           <Name>UserThreatDescription</Name>
           <Label>Description</Label>
           <HideFromUI>false</HideFromUI>
           <Values>
-            <Value>An attacker may attempt to use an exploit the lack of input validation and software autentication to execute malware on the {target.Name}.</Value>
+            <Value>An attacker may attempt to use an exploit the lack of software autentication to execute malware on the {target.Name}.</Value>
           </Values>
           <Id>e7d798f2-c148-4f46-b287-7227aebda703</Id>
           <AttributeType>0</AttributeType>
@@ -3651,7 +3839,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>( source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344' and flow.2c7148dc-7746-47ac-8c87-8ada92e3f635 is 'Command&amp;Code' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>( (source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is  'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' )) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344' and flow.2c7148dc-7746-47ac-8c87-8ada92e3f635 is 'Command&amp;Code' ) and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude>flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes'</Exclude>
       </GenerationFilters>
       <Id>f8f29cb3-088e-48aa-9ce7-de14367d8119</Id>
@@ -3800,7 +3988,7 @@
     <ThreatType>
       <GenerationFilters>
         <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or target is  '9f37b974-a230-4534-b59d-cf2eeaee42b0' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
-        <Exclude>target.68061a2a-8d39-4e3d-84ac-075ae522d8db is 'Yes'</Exclude>
+        <Exclude>target.68061a2a-8d39-4e3d-84ac-075ae522d8db is 'Yes' or flow is  '84976c46-959d-4d2f-8e12-5236df411130'             </Exclude>
       </GenerationFilters>
       <Id>f15b24df-4dde-42f5-a9e9-2c3e9ad1eaf0</Id>
       <ShortTitle>Elevation of privilege due to lack of input validation</ShortTitle>
@@ -3873,7 +4061,7 @@
     </ThreatType>
     <ThreatType>
       <GenerationFilters>
-        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' and  flow.2c7148dc-7746-47ac-8c87-8ada92e3f635 is 'Command&amp;Code' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
+        <Include>(source is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636' or source is 'fc1ec9f0-ca1a-497c-b31a-98aa99dd80c4') and (target is '9f37b974-a230-4534-b59d-cf2eeaee42b0' or target is '67ef6a3a-25f1-4ddb-8c02-b2b201cd3636') and (flow.1788b37b-42c7-4ae5-8cd8-d01b866ac2f0 is 'Yes' ) and (flow is  'a622b89b-40dc-4ede-a95e-32161ab98344') and (flow crosses '473afa23-e07b-4472-bceb-9b3ced511071' or flow crosses  '1e9b8b9a-34f4-4089-8edb-e162a49838e4')</Include>
         <Exclude />
       </GenerationFilters>
       <Id>8b2bfcf8-f905-4748-95c5-fac3192fd2bd</Id>
